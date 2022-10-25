@@ -16,3 +16,9 @@ checked the packages to Confirm SQLServer...
 2022/10/25
 1115- review the default code.
 removed the option flag in startup.cs Line 33  (options => options.SignIn.RequireConfirmedAccount = true)
+
+1121
+built the app and ran it .
+went successful.
+reviewd the github repo and created a README.md with the starting description of the project
+all done for today!
