@@ -12,3 +12,7 @@ properties/launchsettings.json
 just in case review the pachkages..
 checked the packages to Confirm SQLServer...
 1052 lets push to GitHub
+
+2022/10/25
+1115- review the default code.
+removed the option flag in startup.cs Line 33  (options => options.SignIn.RequireConfirmedAccount = true)
