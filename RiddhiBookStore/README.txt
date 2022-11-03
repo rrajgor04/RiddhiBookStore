@@ -22,3 +22,10 @@ built the app and ran it .
 went successful.
 reviewd the github repo and created a README.md with the starting description of the project
 all done for today!
+
+
+03/11/2022
+12:15am
+downloaded bootstrap theme ... I selected Quartz(A glassmorphic layer)...
+replaced bootstrap.css in css and in site.css..
+changed some layout...
