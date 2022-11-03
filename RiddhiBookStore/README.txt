@@ -45,3 +45,15 @@ added dropdown menu but having error ...
 10:04am
 added  3 new projects in the folder 
 installed EF and Sql server and deleted migration folder
+
+10:38am
+got error in startup.cs in line 10...
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0234	The type or namespace name 'Data' does not exist in the namespace 'RiddhiBookStore' (are you missing an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	10	Active
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0246	The type or namespace name 'ApplicationDbContext' could not be found (are you missing a using directive or an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	30	Active
+Error	CS0246	The type or namespace name 'ApplicationDbContext' could not be found (are you missing a using directive or an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	34	Active
+
+
+11:05am
+found error and updated there were file name mistakes....
