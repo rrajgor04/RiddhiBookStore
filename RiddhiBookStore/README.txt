@@ -38,3 +38,10 @@ run the program and it went successful...
 
 12:49am
 added some script in layoiut_cshtml...
+
+2:23am 
+added dropdown menu but having error ...
+
+10:04am
+added  3 new projects in the folder 
+installed EF and Sql server and deleted migration folder

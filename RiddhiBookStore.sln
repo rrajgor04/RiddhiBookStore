@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddhiBookStore", "RiddhiBookStore\RiddhiBookStore.csproj", "{32EE7DBD-6138-495D-8A3C-992681C9AC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiddhiBookStore", "RiddhiBookStore\RiddhiBookStore.csproj", "{32EE7DBD-6138-495D-8A3C-992681C9AC65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddhiBooks.DataAccess", "RiddhiBooks.DataAccess\RiddhiBooks.DataAccess.csproj", "{17CF1547-4A53-473B-A0F3-239826619372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddhiBooks.Models", "RiddhiBooks.Models\RiddhiBooks.Models.csproj", "{5B6C9772-001E-4686-8451-9BC927D3485D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiddhiBooks.Utility", "RiddhiBooks.Utility\RiddhiBooks.Utility.csproj", "{0D30C290-27E9-4C6D-BAE5-2205C094126E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{32EE7DBD-6138-495D-8A3C-992681C9AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32EE7DBD-6138-495D-8A3C-992681C9AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EE7DBD-6138-495D-8A3C-992681C9AC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CF1547-4A53-473B-A0F3-239826619372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CF1547-4A53-473B-A0F3-239826619372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CF1547-4A53-473B-A0F3-239826619372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CF1547-4A53-473B-A0F3-239826619372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6C9772-001E-4686-8451-9BC927D3485D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6C9772-001E-4686-8451-9BC927D3485D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6C9772-001E-4686-8451-9BC927D3485D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6C9772-001E-4686-8451-9BC927D3485D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D30C290-27E9-4C6D-BAE5-2205C094126E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D30C290-27E9-4C6D-BAE5-2205C094126E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D30C290-27E9-4C6D-BAE5-2205C094126E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D30C290-27E9-4C6D-BAE5-2205C094126E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
