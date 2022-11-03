@@ -57,3 +57,6 @@ Error	CS0246	The type or namespace name 'ApplicationDbContext' could not be foun
 
 11:05am
 found error and updated there were file name mistakes....
+
+11:08am
+got error in HomeController.cs in namespace...
