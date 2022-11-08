@@ -69,4 +69,7 @@ did till page 34
 10:39am - sorted out dropdown issue...added some missing lines.
 
 1131am
-moved some folders according to slides..run the program but getting error in prom.cs as a breakpoints...
+moved some folders according to slides..run the program but getting error in prom.cs as a exceptions......
+
+1145am
+excedption are coming in startup.cs..
