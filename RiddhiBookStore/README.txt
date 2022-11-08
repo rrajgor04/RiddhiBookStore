@@ -63,4 +63,5 @@ got error in HomeController.cs in namespace...
 
 did till page 34
 2022/08/11
-added refernce in RiddhiBooks.DataAccess
+10:13am added refernce in RiddhiBooks.DataAccess
+10:16 added class in thew utility project
