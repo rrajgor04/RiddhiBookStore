@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RiddhiBooks.Models\RiddhiBooks.Models.csproj" />
+    <ProjectReference Include="..\RiddhiBooks.Utility\RiddhiBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>
