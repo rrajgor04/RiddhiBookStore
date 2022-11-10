@@ -72,4 +72,13 @@ did till page 34
 moved some folders according to slides..run the program but getting error in prom.cs as a exceptions......
 
 1145am
-excedption are coming in startup.cs..
+exception are coming in startup.cs..
+
+
+2022/10/11
+1136am
+made changes in Viewstart.cshtml...
+everything is going good..
+
+1137am 
+run the program .. ah! localhost error coming...

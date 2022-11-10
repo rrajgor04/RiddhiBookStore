@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -28,6 +29,7 @@ namespace RiddhiBookStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -35,7 +37,8 @@ namespace RiddhiBookStore
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
-            //MvcOptions.EnableEndpointRouting = false;
+            
+            services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,14 +63,7 @@ namespace RiddhiBookStore
             app.UseAuthentication();
             app.UseAuthorization();
 
-            //IApplicationBuilder applicationBuilder = app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute(
-            //      name: "areas",
-            //      template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-            //    );
-            //});
-
+           
 
             app.UseEndpoints(endpoints =>
             {
