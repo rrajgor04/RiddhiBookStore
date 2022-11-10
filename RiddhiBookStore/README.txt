@@ -82,3 +82,6 @@ everything is going good..
 
 1137am 
 run the program .. ah! localhost error coming...
+
+1145am
+somewhere in between startup.cs and launchsetting.json  error is there find the error or else mail to professor.
