@@ -77,7 +77,8 @@ namespace RiddhiBookStore
             {
                 routes.MapRoute(
                   name: "areas",
-                  template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                 // template: "{area=Customers}/{controller=Home}/{action=Index}/{id?}"
+                  template: "{controller=Home}/{action=Index}/{id?}"
                 );
             });
         }
