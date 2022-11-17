@@ -65,6 +65,17 @@ namespace RiddhiBookStore
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+<<<<<<< HEAD
+=======
+
+            IApplicationBuilder applicationBuilder = app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                  name: "areas",
+                  template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+            });
+>>>>>>> parent of 95df79d (trying to figure out the local host error...)
         }
     }
 }

@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Views\Home\Views\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
