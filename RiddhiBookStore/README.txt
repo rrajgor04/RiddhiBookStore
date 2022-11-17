@@ -46,46 +46,5 @@ added dropdown menu but having error ...
 added  3 new projects in the folder 
 installed EF and Sql server and deleted migration folder
 
-10:38am
-got error in startup.cs in line 10...
-Severity	Code	Description	Project	File	Line	Suppression State
-Error	CS0234	The type or namespace name 'Data' does not exist in the namespace 'RiddhiBookStore' (are you missing an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	10	Active
-Severity	Code	Description	Project	File	Line	Suppression State
-Error	CS0246	The type or namespace name 'ApplicationDbContext' could not be found (are you missing a using directive or an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	30	Active
-Error	CS0246	The type or namespace name 'ApplicationDbContext' could not be found (are you missing a using directive or an assembly reference?)	RiddhiBookStore	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBookStore\Startup.cs	34	Active
-
-
-11:05am
-found error and updated there were file name mistakes....
-
-11:08am
-got error in HomeController.cs in namespace...
-
-did till page 34
-2022/08/11
-10:13am added refernce in RiddhiBooks.DataAccess
-10:16 added class in thew utility project...
-
-10:39am - sorted out dropdown issue...added some missing lines.
-
-1131am
-moved some folders according to slides..run the program but getting error in prom.cs as a exceptions......
-
-1145am
-exception are coming in startup.cs..
-
-
-2022/10/11
-1136am
-made changes in Viewstart.cshtml...
-everything is going good..
-
-1137am 
-run the program .. ah! localhost error coming...
-
-1145am
-somewhere in between startup.cs and launchsetting.json  error is there find the error or else mail to professor.
-
-2022-17-11
-1115am
-error coming still in local host trying best to find the problem..
+10:25am 
+getting error in errorViewModel and Error.cshtml

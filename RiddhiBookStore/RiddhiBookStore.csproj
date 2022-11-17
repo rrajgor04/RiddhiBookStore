@@ -7,31 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\**" />
-    <Compile Remove="Views\**" />
-    <Content Remove="Controllers\**" />
-    <Content Remove="Views\**" />
-    <EmbeddedResource Remove="Controllers\**" />
-    <EmbeddedResource Remove="Views\**" />
-    <None Remove="Controllers\**" />
-    <None Remove="Views\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Areas\Customers\_ViewImports.cshtml" />
-    <None Include="Areas\Customers\_ViewStart.cshtml" />
-    <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
-    <None Include="Areas\Views\Home\Index.cshtml" />
-    <None Include="Areas\Views\Home\Privacy.cshtml" />
-    <None Include="Areas\Views\Shared\Error.cshtml" />
-    <None Include="Areas\Views\Shared\_Layout.cshtml" />
-    <None Include="Areas\Views\Shared\_LoginPartial.cshtml" />
-    <None Include="Areas\Views\Shared\_ValidationScriptsPartial.cshtml" />
-    <None Include="Areas\Views\_ViewImports.cshtml" />
-    <None Include="Areas\Views\_ViewStart.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.16" />
@@ -39,12 +14,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.16" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\RiddhiBooks.DataAccess\RiddhiBooks.DataAccess.csproj" />
-    <ProjectReference Include="..\RiddhiBooks.Models\RiddhiBooks.Models.csproj" />
   </ItemGroup>
 
 </Project>
