@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 namespace RiddhiBookStore.Controllers
 {
 
-    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
