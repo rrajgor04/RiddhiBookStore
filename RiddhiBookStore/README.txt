@@ -90,3 +90,7 @@ run the program .. ah! localhost error coming...
 1145am
 somewhere in between startup.cs and launchsetting.json  error is there find the error or else mail to professor.
 >>>>>>> parent of 95df79d (trying to figure out the local host error...)
+
+2022-22-11
+938am
+made changes in startup.cs and homeController.cs
