@@ -97,3 +97,6 @@ made changes in startup.cs and homeController.cs
 
 1051am
 created a area folder name admin and deleted the HomeController.cs folder...
+
+1111am
+error coming in program.cs as a exception handling...
