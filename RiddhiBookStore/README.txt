@@ -94,3 +94,6 @@ somewhere in between startup.cs and launchsetting.json  error is there find the 
 2022-22-11
 938am
 made changes in startup.cs and homeController.cs
+
+1051am
+created a area folder name admin and deleted the HomeController.cs folder...

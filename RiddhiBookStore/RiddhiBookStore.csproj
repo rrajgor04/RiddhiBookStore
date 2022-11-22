@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Customers\Controllers\**" />
     <Compile Remove="Controllers\**" />
     <Compile Remove="Views\**" />
+    <Content Remove="Areas\Customers\Controllers\**" />
     <Content Remove="Controllers\**" />
     <Content Remove="Views\**" />
+    <EmbeddedResource Remove="Areas\Customers\Controllers\**" />
     <EmbeddedResource Remove="Controllers\**" />
     <EmbeddedResource Remove="Views\**" />
+    <None Remove="Areas\Customers\Controllers\**" />
     <None Remove="Controllers\**" />
     <None Remove="Views\**" />
   </ItemGroup>
@@ -48,6 +52,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Views\Home\Views\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
