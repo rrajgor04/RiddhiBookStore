@@ -1,17 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using RiddhiBookStore.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using RiddhiBookStore.DataAccess.Data;
 
 namespace RiddhiBookStore
 {
@@ -65,17 +59,20 @@ namespace RiddhiBookStore
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
-<<<<<<< HEAD
-=======
 
+
+
+#pragma warning disable MVC1005 // Cannot use UseMvc with Endpoint Routing.
             IApplicationBuilder applicationBuilder = app.UseMvc(routes =>
             {
                 routes.MapRoute(
                   name: "areas",
-                  template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                  template: "{area=Customers}/{controller=Home}/{action=Index}/{id?}"
                 );
             });
->>>>>>> parent of 95df79d (trying to figure out the local host error...)
+//#pragma warning restore MVC1005 // Cannot use UseMvc with Endpoint Routing.
+
         }
     }
 }
+
