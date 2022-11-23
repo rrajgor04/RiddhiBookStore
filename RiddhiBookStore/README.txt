@@ -107,3 +107,6 @@ added migrations...
 2022-23-11
 347pm
 updated category.cs ..
+
+420pm
+deleted the existing addCategoryToDb.cs and re-run the migration addCategoryTodb and the new file has the table details...
