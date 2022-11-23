@@ -103,3 +103,7 @@ error coming in program.cs as a exception handling...
 
 1130 part2 
 added migrations...
+
+2022-23-11
+347pm
+updated category.cs ..
