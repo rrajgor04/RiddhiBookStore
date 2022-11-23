@@ -113,3 +113,11 @@ deleted the existing addCategoryToDb.cs and re-run the migration addCategoryTodb
 
 429pm
 made changes in .csproj and added folder reference in it for Repository folder that i created ...
+
+536pm
+added folder name Repository in DataAccess folder.. sub Folders are  IRepository ...
+edited files are : 
+ICategoryRepository.cs
+IRepository.cs
+CategoryRepository.cs
+Repository.cs...
