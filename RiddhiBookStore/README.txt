@@ -110,3 +110,6 @@ updated category.cs ..
 
 420pm
 deleted the existing addCategoryToDb.cs and re-run the migration addCategoryTodb and the new file has the table details...
+
+429pm
+made changes in .csproj and added folder reference in it for Repository folder that i created ...
