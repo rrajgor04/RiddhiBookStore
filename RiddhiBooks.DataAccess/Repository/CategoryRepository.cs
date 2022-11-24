@@ -16,6 +16,10 @@ namespace RiddhiBooks.DataAccess.Repository
             _db = db;
         }
 
+        public CategoryRepository(ApplicationDbConetxt db)
+        {
+        }
+
         public void Update(Category category)
         {
             var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);

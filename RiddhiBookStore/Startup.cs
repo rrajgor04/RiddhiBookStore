@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RiddhiBookStore.DataAccess.Data;
+using RiddhiBooks.DataAccess.Repository.IRepository;
+
 
 namespace RiddhiBookStore
 {
@@ -24,10 +26,14 @@ namespace RiddhiBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDatabaseDeveloperPageException;
             services.AddDefaultIdentity<IdentityUser>() //remove actions -> options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
+
+
             services.AddControllersWithViews();
-            services.AddRazorPages();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
