@@ -140,3 +140,7 @@ and also made a file CategoryController.cs..
 
 1104am
 made changes in _Layout.cshtml..
+
+123pm 
+error in categoryController.cs 
+trying to figure out...
