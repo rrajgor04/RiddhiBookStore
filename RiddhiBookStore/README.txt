@@ -137,3 +137,6 @@ error coming in UnitOfWork.cs file...
 1030am
 made a index.cshtml file for the output..
 and also made a file CategoryController.cs..
+
+1104am
+made changes in _Layout.cshtml..
