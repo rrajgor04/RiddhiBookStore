@@ -21,9 +21,7 @@ namespace RiddhiBooks.DataAccess.Repository
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
         }
 
-        public SP_Call(ApplicationDbConetxt db)
-        {
-        }
+      
 
         public void Dispose()
         {

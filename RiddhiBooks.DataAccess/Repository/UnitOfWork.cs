@@ -20,7 +20,7 @@ namespace RiddhiBooks.DataAccess.Repository
         }
 
         public ICategoryRepository Category { get; set; }
-        private ISP_Call SP_Call { get;  set; }
+        private ISP_Call SP_Call { get; set; }
 
          public void Dispose()
         {
