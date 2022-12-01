@@ -144,3 +144,11 @@ made changes in _Layout.cshtml..
 123pm 
 error in categoryController.cs 
 trying to figure out...
+
+2022-12-01
+108pm 
+there was an error in UnitOfWork.cs 
+in line 23 (        public ISP_Call SP_Call { get; private set; }
+) when its public its showing this error (Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0053	Inconsistent accessibility: property type 'ISP_Call' is less accessible than property 'UnitOfWork.SP_Call'	RiddhiBooks.DataAccess	C:\Users\W0793048\Source\Repos\rrajgor04\RiddhiBookStore\RiddhiBooks.DataAccess\Repository\UnitOfWork.cs	23	Active
+) and when I convert it into private property it showed me no error...

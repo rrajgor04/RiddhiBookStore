@@ -16,9 +16,9 @@ namespace RiddhiBooks.DataAccess.Repository
             _db = db;
         }
 
-        public CategoryRepository(ApplicationDbConetxt db)
-        {
-        }
+        //public CategoryRepository(ApplicationDbConetxt db)
+        //{
+        //}
 
         public void Update(Category category)
         {

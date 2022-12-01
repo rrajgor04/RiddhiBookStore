@@ -11,7 +11,7 @@ namespace RiddhiBooks.DataAccess.Repository
 {
     public class UnitOfWork
     {
-        private readonly ApplicationDbContext _db;
+         readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
@@ -20,7 +20,7 @@ namespace RiddhiBooks.DataAccess.Repository
         }
 
         public ICategoryRepository Category { get; set; }
-        public ISP_Call SP_Call { get; private set; }
+        private ISP_Call SP_Call { get;  set; }
 
          public void Dispose()
         {
