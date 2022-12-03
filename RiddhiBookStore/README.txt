@@ -182,3 +182,6 @@ solved above error by adding "services.AddScoped<IUnitOfWork, UnitOfWork>();" th
 
 240am
 getting some issues with bootstrap theme, let's check
+
+244am
+Ithink I need to change the theme because of incompatability of bootstrap version
