@@ -266,3 +266,6 @@ Added products table to database here is the migration timestamp "20221203102530
 
 529am
 Added validation to Product and here is its migration "20221203102930_AddValidationToProduct"
+
+534am
+Created ProductRepository class and its rellative interface
