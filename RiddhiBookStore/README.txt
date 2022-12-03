@@ -161,3 +161,6 @@ error in CAtegoryCintroller.cs
 126am
 Above error is solved by making all interfaces and their classes public and adding IUnitofWork file from DataAccess instead of its copy that was in controller folder of admin area.
 and also cooorected some methods in UnitofWork and Iunitofwork file
+
+145am
+Now finding and fixing some of the hidden bugs to make the app run, so i can move further.
