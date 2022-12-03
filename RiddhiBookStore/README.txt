@@ -254,3 +254,6 @@ Created index view of covertype with datatable
 
 516am
 Added upsert view for coverType
+
+517am
+Added CoverType to nav bar
