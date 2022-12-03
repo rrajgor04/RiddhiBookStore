@@ -62,21 +62,10 @@ namespace RiddhiBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customers}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
 
-
-
-#pragma warning disable MVC1005 // Cannot use UseMvc with Endpoint Routing.
-            IApplicationBuilder applicationBuilder = app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                  name: "areas",
-                  template: "{area=Customers}/{controller=Home}/{action=Index}/{id?}"
-                );
-            });
-//#pragma warning restore MVC1005 // Cannot use UseMvc with Endpoint Routing.
 
         }
     }
