@@ -244,4 +244,7 @@ CovetypeRepository renamed because there was atypo in name.
 Added Covertype in UnitOfWork and IUnitOfwork
 
 505am
-Added Coveertype to dayabase and here is the migration timestamp
+Added Coveertype to dayabase and here is the migration timestamp. "20221203100516_AddCoverTypeToDb"
+
+509am
+Created CoverType controller wit all required methods
