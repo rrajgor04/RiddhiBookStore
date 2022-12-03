@@ -231,3 +231,6 @@ Heading to part-3
 
 447am
 Created CoverType model class
+
+449am
+Added a public interface of IcovertypeRepository
