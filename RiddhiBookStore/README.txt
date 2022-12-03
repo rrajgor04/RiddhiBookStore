@@ -242,3 +242,6 @@ Created Public class of CoverTypeRepositopry for its interface and implemented i
 503am
 CovetypeRepository renamed because there was atypo in name.
 Added Covertype in UnitOfWork and IUnitOfwork
+
+505am
+Added Coveertype to dayabase and here is the migration timestamp
