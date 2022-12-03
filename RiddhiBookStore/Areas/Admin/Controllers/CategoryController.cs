@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RiddhiBooks.DataAccess.Repository.IRepository;
 using RiddhiBooks.Models;
 
 
@@ -33,7 +34,7 @@ namespace RiddhiBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
 
         }
 
