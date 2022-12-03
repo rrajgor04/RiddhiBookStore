@@ -225,3 +225,9 @@ Created upsert post method for category
 
 442am
 added delete api call for category and delete method added into category javascript file wiyh onclick event
+
+445am
+Heading to part-3
+
+447am
+Created CoverType model class
