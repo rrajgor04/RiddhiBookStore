@@ -13,7 +13,7 @@ namespace RiddhiBooks.DataAccess.Repository.IRepository
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string includeproperties = null
+            string includeProperties = null
             );
         T GetFirstOrDefault(
             Expression<Func<T, bool>> filter = null,
