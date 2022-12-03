@@ -248,3 +248,6 @@ Added Coveertype to dayabase and here is the migration timestamp. "2022120310051
 
 509am
 Created CoverType controller wit all required methods
+
+512am
+Created index view of covertype with datatable
