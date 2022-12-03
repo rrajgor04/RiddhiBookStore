@@ -201,3 +201,6 @@ now bootstrap theeme lokks fine and links are also working. issue solved by movi
 
 356am
 added required css links that was removed while fixing the links
+
+401am
+Database name corrected in appsettings
