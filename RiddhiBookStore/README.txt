@@ -275,3 +275,6 @@ Product added in UnitofWork interface and class files
 
 549am
 Created ProductVM viewmodel and Productcontroller and commented post upsert method for now
+
+554am
+Created index View file for product and created its javascript
