@@ -251,3 +251,6 @@ Created CoverType controller wit all required methods
 
 512am
 Created index view of covertype with datatable
+
+516am
+Added upsert view for coverType
