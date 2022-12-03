@@ -155,3 +155,9 @@ Error	CS0053	Inconsistent accessibility: property type 'ISP_Call' is less access
 
 211pm
 error in CAtegoryCintroller.cs 
+
+
+2022-12-03
+126am
+Above error is solved by making all interfaces and their classes public and adding IUnitofWork file from DataAccess instead of its copy that was in controller folder of admin area.
+and also cooorected some methods in UnitofWork and Iunitofwork file
