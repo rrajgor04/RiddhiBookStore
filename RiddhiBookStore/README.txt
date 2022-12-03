@@ -195,3 +195,6 @@ changed bootstrap file but still not looking good on browser
 250am
 Replaced site.css with the one given on blackboard.
 theme looking good now but links not working now
+
+352am
+now bootstrap theeme lokks fine and links are also working. issue solved by moving a duplicate views folder from area , placing it at the root of bookstore project
