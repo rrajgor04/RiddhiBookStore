@@ -9,7 +9,7 @@ using System.Text;
 
 namespace RiddhiBooks.DataAccess.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
          readonly ApplicationDbContext _db;
         public UnitOfWork(ApplicationDbContext db)
@@ -19,10 +19,11 @@ namespace RiddhiBooks.DataAccess.Repository
             SP_Call = new SP_Call(_db);
         }
 
-        public ICategoryRepository Category { get; set; }
-        private ISP_Call SP_Call { get; set; }
+        public ICategoryRepository Category { get; private set; }
 
-         public void Dispose()
+        public ISP_Call SP_Call { get; private set; }
+
+        public void Dispose()
         {
             _db.Dispose();
         }
