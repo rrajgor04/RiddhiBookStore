@@ -29,7 +29,7 @@ namespace RiddhiBookStore
             //services.AddDatabaseDeveloperPageException;
             services.AddDefaultIdentity<IdentityUser>() //remove actions -> options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
             services.AddControllersWithViews();

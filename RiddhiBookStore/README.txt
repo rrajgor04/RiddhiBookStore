@@ -171,3 +171,11 @@ Fixed issue with customer area and its home controller
 228am
 deleted some unlocated files and moved index view of category to its place.
 copied _viewstart and _viewimport files to views folder of category
+
+235am
+Now geting this error on the browser
+InvalidOperationException: Unable to resolve service for type 'RiddhiBooks.DataAccess.Repository.IRepository.IUnitOfWork'
+while attempting to activate 'RiddhiBookStore.Areas.Admin.Controllers.CategoryController'.
+
+237am
+solved above error by adding "services.AddScoped<IUnitOfWork, UnitOfWork>();" the correct option in this line of statup.cs file
