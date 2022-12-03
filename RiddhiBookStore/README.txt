@@ -234,3 +234,7 @@ Created CoverType model class
 
 449am
 Added a public interface of IcovertypeRepository
+
+456am
+Dbset of covertype added
+Created Public class of CoverTypeRepositopry for its interface and implemented it.
