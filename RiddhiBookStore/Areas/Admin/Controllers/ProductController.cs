@@ -55,7 +55,7 @@ namespace RiddhiBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(ProductVM productVM)
         {
@@ -124,7 +124,7 @@ namespace RiddhiBookStore.Areas.Admin.Controllers
                 }
             }
             return View(productVM);
-        }*/
+        }
 
 
         #region API CALLS

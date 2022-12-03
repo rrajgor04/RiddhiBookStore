@@ -284,3 +284,6 @@ Added link of product in navbar dropdown
 
 603am
 Created Upsert view file for Product
+
+0607am
+Uncommented upsert post method
