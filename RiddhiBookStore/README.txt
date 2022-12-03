@@ -198,3 +198,6 @@ theme looking good now but links not working now
 
 352am
 now bootstrap theeme lokks fine and links are also working. issue solved by moving a duplicate views folder from area , placing it at the root of bookstore project
+
+356am
+added required css links that was removed while fixing the links
