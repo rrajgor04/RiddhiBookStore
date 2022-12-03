@@ -167,3 +167,7 @@ Now finding and fixing some of the hidden bugs to make the app run, so i can mov
 
 156am
 Fixed issue with customer area and its home controller
+
+228am
+deleted some unlocated files and moved index view of category to its place.
+copied _viewstart and _viewimport files to views folder of category
