@@ -210,3 +210,6 @@ Deleted code for edit and delete butons from index of category now using javascr
 
 412am
 Created upsert view for category
+
+423am
+Created two partial view files for buttons

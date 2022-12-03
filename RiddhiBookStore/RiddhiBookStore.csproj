@@ -8,12 +8,16 @@
 
   <ItemGroup>
     <Compile Remove="Areas\Customers\Views\Home\Views\**" />
+    <Compile Remove="Areas\Views\**" />
     <Compile Remove="Views\**" />
     <Content Remove="Areas\Customers\Views\Home\Views\**" />
+    <Content Remove="Areas\Views\**" />
     <Content Remove="Views\**" />
     <EmbeddedResource Remove="Areas\Customers\Views\Home\Views\**" />
+    <EmbeddedResource Remove="Areas\Views\**" />
     <EmbeddedResource Remove="Views\**" />
     <None Remove="Areas\Customers\Views\Home\Views\**" />
+    <None Remove="Areas\Views\**" />
     <None Remove="Views\**" />
   </ItemGroup>
 
@@ -34,12 +38,8 @@
     <None Include="Areas\Customers\Views\_ViewImports.cshtml" />
     <None Include="Areas\Customers\Views\_ViewStart.cshtml" />
     <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
-    <None Include="Areas\Views\Shared\Error.cshtml" />
-    <None Include="Areas\Views\Shared\_Layout.cshtml" />
-    <None Include="Areas\Views\Shared\_LoginPartial.cshtml" />
-    <None Include="Areas\Views\Shared\_ValidationScriptsPartial.cshtml" />
-    <None Include="Areas\Views\_ViewImports.cshtml" />
-    <None Include="Areas\Views\_ViewStart.cshtml" />
+    <None Include="Views\Shared\_CreateAndBackToListButton.cshtml" />
+    <None Include="Views\Shared\_EditAndBackToListButton.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
