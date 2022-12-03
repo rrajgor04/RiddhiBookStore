@@ -216,3 +216,5 @@ Created two partial view files for buttons
 
 429am
 Updated upsert view and added its link to index view of category
+434am
+Added validation script to upsert
