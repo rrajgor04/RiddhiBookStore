@@ -260,3 +260,6 @@ Added CoverType to nav bar
 
 523am
 Created model class for product
+
+526am
+Added products table to database here is the migration timestamp "20221203102530_AddProductToDb";
