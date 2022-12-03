@@ -263,3 +263,6 @@ Created model class for product
 
 526am
 Added products table to database here is the migration timestamp "20221203102530_AddProductToDb";
+
+529am
+Added validation to Product and here is its migration "20221203102930_AddValidationToProduct"
