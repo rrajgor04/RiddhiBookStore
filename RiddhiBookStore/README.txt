@@ -178,4 +178,7 @@ InvalidOperationException: Unable to resolve service for type 'RiddhiBooks.DataA
 while attempting to activate 'RiddhiBookStore.Areas.Admin.Controllers.CategoryController'.
 
 237am
-solved above error by adding "services.AddScoped<IUnitOfWork, UnitOfWork>();" the correct option in this line of statup.cs file
+solved above error by adding "services.AddScoped<IUnitOfWork, UnitOfWork>();" the correct option in this line of statup.cs file.
+
+240am
+getting some issues with bootstrap theme, let's check
