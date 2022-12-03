@@ -8,11 +8,11 @@ using System.Text;
 
 namespace RiddhiBooks.DataAccess.Repository
 {
-    public class CoveTypeRepository : Repository<CoverType>, ICoverTypeRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         private readonly ApplicationDbContext _db;
 
-        public CoveTypeRepository(ApplicationDbContext db) : base(db)
+        public CoverTypeRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }

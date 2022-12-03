@@ -238,3 +238,7 @@ Added a public interface of IcovertypeRepository
 456am
 Dbset of covertype added
 Created Public class of CoverTypeRepositopry for its interface and implemented it.
+
+503am
+CovetypeRepository renamed because there was atypo in name.
+Added Covertype in UnitOfWork and IUnitOfwork
