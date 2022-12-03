@@ -222,3 +222,6 @@ Added validation script to upsert
 
 438am
 Created upsert post method for category
+
+442am
+added delete api call for category and delete method added into category javascript file wiyh onclick event
