@@ -269,3 +269,6 @@ Added validation to Product and here is its migration "20221203102930_AddValidat
 
 534am
 Created ProductRepository class and its rellative interface
+
+536am
+Product added in UnitofWork interface and class files
