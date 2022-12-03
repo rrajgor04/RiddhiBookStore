@@ -164,3 +164,6 @@ and also cooorected some methods in UnitofWork and Iunitofwork file
 
 145am
 Now finding and fixing some of the hidden bugs to make the app run, so i can move further.
+
+156am
+Fixed issue with customer area and its home controller

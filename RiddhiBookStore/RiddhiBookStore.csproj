@@ -7,26 +7,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Customers\Controllers\**" />
-    <Compile Remove="Controllers\**" />
+    <Compile Remove="Areas\Customers\Views\Home\Views\**" />
     <Compile Remove="Views\**" />
-    <Content Remove="Areas\Customers\Controllers\**" />
-    <Content Remove="Controllers\**" />
+    <Content Remove="Areas\Customers\Views\Home\Views\**" />
     <Content Remove="Views\**" />
-    <EmbeddedResource Remove="Areas\Customers\Controllers\**" />
-    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Areas\Customers\Views\Home\Views\**" />
     <EmbeddedResource Remove="Views\**" />
-    <None Remove="Areas\Customers\Controllers\**" />
-    <None Remove="Controllers\**" />
+    <None Remove="Areas\Customers\Views\Home\Views\**" />
     <None Remove="Views\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Areas\Customers\_ViewImports.cshtml" />
-    <None Include="Areas\Customers\_ViewStart.cshtml" />
+    <Content Remove="Areas\Customers\Views\Home\Index.cshtml" />
+    <Content Remove="Areas\Customers\Views\Home\Privacy.cshtml" />
+    <Content Remove="Areas\Customers\Views\_ViewImports.cshtml" />
+    <Content Remove="Areas\Customers\Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Customers\Views\Home\Index.cshtml" />
+    <None Include="Areas\Customers\Views\Home\Privacy.cshtml" />
+    <None Include="Areas\Customers\Views\_ViewImports.cshtml" />
+    <None Include="Areas\Customers\Views\_ViewStart.cshtml" />
     <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
-    <None Include="Areas\Views\Home\Index.cshtml" />
-    <None Include="Areas\Views\Home\Privacy.cshtml" />
     <None Include="Areas\Views\Shared\Error.cshtml" />
     <None Include="Areas\Views\Shared\_Layout.cshtml" />
     <None Include="Areas\Views\Shared\_LoginPartial.cshtml" />
@@ -55,8 +58,6 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Category\" />
-    <Folder Include="Areas\Views\Home\Views\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
