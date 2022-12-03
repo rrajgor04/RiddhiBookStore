@@ -257,3 +257,6 @@ Added upsert view for coverType
 
 517am
 Added CoverType to nav bar
+
+523am
+Created model class for product
