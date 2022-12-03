@@ -185,3 +185,13 @@ getting some issues with bootstrap theme, let's check
 
 244am
 Ithink I need to change the theme because of incompatability of bootstrap version
+
+245am
+Now selected Minty theme with correct bootstrap version.
+
+249am
+changed bootstrap file but still not looking good on browser
+
+250am
+Replaced site.css with the one given on blackboard.
+theme looking good now but links not working now
