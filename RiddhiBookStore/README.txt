@@ -213,3 +213,6 @@ Created upsert view for category
 
 423am
 Created two partial view files for buttons
+
+429am
+Updated upsert view and added its link to index view of category
