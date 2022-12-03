@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RiddhiBookStore.DataAccess.Data;
 using RiddhiBooks.DataAccess.Repository.IRepository;
-
+using RiddhiBooks.DataAccess.Repository;
 
 namespace RiddhiBookStore
 {
