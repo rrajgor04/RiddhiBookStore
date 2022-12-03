@@ -272,3 +272,6 @@ Created ProductRepository class and its rellative interface
 
 536am
 Product added in UnitofWork interface and class files
+
+549am
+Created ProductVM viewmodel and Productcontroller and commented post upsert method for now
