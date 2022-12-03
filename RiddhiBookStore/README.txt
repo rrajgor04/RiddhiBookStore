@@ -204,3 +204,6 @@ added required css links that was removed while fixing the links
 
 401am
 Database name corrected in appsettings
+
+406am
+Deleted code for edit and delete butons from index of category now using javascript file
