@@ -314,3 +314,6 @@ and also added a migration for it "20221205043514_MorePriceToProduct".
 
 1140pm
 Added inputs for more prices in upsert.cshtml of product.
+
+1146pm
+Added image file on upser if updating the product
