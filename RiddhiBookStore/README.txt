@@ -307,3 +307,7 @@ now it is moving forward but got another error for not creating images folder . 
 
 827pm
 yup, the error solved by correcting the product model and creating images and products folder to store images
+
+1135pm
+Added more prices to Products model according to given github repo.
+and also added a migration for it "20221205043514_MorePriceToProduct".
