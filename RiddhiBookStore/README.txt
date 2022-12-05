@@ -155,3 +155,135 @@ Error	CS0053	Inconsistent accessibility: property type 'ISP_Call' is less access
 
 211pm
 error in CAtegoryCintroller.cs 
+
+
+2022-12-03
+126am
+Above error is solved by making all interfaces and their classes public and adding IUnitofWork file from DataAccess instead of its copy that was in controller folder of admin area.
+and also cooorected some methods in UnitofWork and Iunitofwork file
+
+145am
+Now finding and fixing some of the hidden bugs to make the app run, so i can move further.
+
+156am
+Fixed issue with customer area and its home controller
+
+228am
+deleted some unlocated files and moved index view of category to its place.
+copied _viewstart and _viewimport files to views folder of category
+
+235am
+Now geting this error on the browser
+InvalidOperationException: Unable to resolve service for type 'RiddhiBooks.DataAccess.Repository.IRepository.IUnitOfWork'
+while attempting to activate 'RiddhiBookStore.Areas.Admin.Controllers.CategoryController'.
+
+237am
+solved above error by adding "services.AddScoped<IUnitOfWork, UnitOfWork>();" the correct option in this line of statup.cs file.
+
+240am
+getting some issues with bootstrap theme, let's check
+
+244am
+Ithink I need to change the theme because of incompatability of bootstrap version
+
+245am
+Now selected Minty theme with correct bootstrap version.
+
+249am
+changed bootstrap file but still not looking good on browser
+
+250am
+Replaced site.css with the one given on blackboard.
+theme looking good now but links not working now
+
+352am
+now bootstrap theeme lokks fine and links are also working. issue solved by moving a duplicate views folder from area , placing it at the root of bookstore project
+
+356am
+added required css links that was removed while fixing the links
+
+401am
+Database name corrected in appsettings
+
+406am
+Deleted code for edit and delete butons from index of category now using javascript file
+
+412am
+Created upsert view for category
+
+423am
+Created two partial view files for buttons
+
+429am
+Updated upsert view and added its link to index view of category
+
+434am
+Added validation script to upsert
+
+438am
+Created upsert post method for category
+
+442am
+added delete api call for category and delete method added into category javascript file wiyh onclick event
+
+445am
+Heading to part-3
+
+447am
+Created CoverType model class
+
+449am
+Added a public interface of IcovertypeRepository
+
+456am
+Dbset of covertype added
+Created Public class of CoverTypeRepositopry for its interface and implemented it.
+
+503am
+CovetypeRepository renamed because there was atypo in name.
+Added Covertype in UnitOfWork and IUnitOfwork
+
+505am
+Added Coveertype to dayabase and here is the migration timestamp. "20221203100516_AddCoverTypeToDb"
+
+509am
+Created CoverType controller wit all required methods
+
+512am
+Created index view of covertype with datatable
+
+516am
+Added upsert view for coverType
+
+517am
+Added CoverType to nav bar
+
+523am
+Created model class for product
+
+526am
+Added products table to database here is the migration timestamp "20221203102530_AddProductToDb";
+
+529am
+Added validation to Product and here is its migration "20221203102930_AddValidationToProduct"
+
+534am
+Created ProductRepository class and its rellative interface
+
+536am
+Product added in UnitofWork interface and class files
+
+549am
+Created ProductVM viewmodel and Productcontroller and commented post upsert method for now
+
+554am
+Created index View file for product and created its javascript
+
+556am
+Added link of product in navbar dropdown
+
+603am
+Created Upsert view file for Product
+
+0607am
+Uncommented upsert post method
