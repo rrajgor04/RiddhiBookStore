@@ -287,3 +287,23 @@ Created Upsert view file for Product
 
 0607am
 Uncommented upsert post method
+
+
+
+2022-12-04
+
+819pm
+Products are unable to add it is just reloading the page.
+I think the problemis in product model
+
+820pm
+added range attributr to image by mistake
+
+822pm
+Added a migration for correction  "20221205012229_CorrectedProduct".
+
+824pm
+now it is moving forward but got another error for not creating images folder . creating it now
+
+827pm
+yup, the error solved by correcting the product model and creating images and products folder to store images
