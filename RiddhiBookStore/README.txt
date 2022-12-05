@@ -317,3 +317,6 @@ Added inputs for more prices in upsert.cshtml of product.
 
 1146pm
 Added image file on upser if updating the product
+
+1152pm
+Added product list to index view of customers area to display it on projects home page
