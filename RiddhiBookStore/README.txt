@@ -311,3 +311,6 @@ yup, the error solved by correcting the product model and creating images and pr
 1135pm
 Added more prices to Products model according to given github repo.
 and also added a migration for it "20221205043514_MorePriceToProduct".
+
+1140pm
+Added inputs for more prices in upsert.cshtml of product.
